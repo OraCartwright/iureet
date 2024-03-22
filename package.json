@@ -1,0 +1,58 @@
+{
+  "name": "iureet",
+  "version": "1.0.0",
+  "description": "a notifier for users of fork-ts-checker-webpack-plugin",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "voluptas",
+    "fork-ts-checker-webpack-plugin",
+    "ts-loader",
+    "aperiam"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "author": "IssacMayert",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OraCartwright/iureet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OraCartwright/iureet.git/issues"
+  },
+  "dependencies": {
+    "node-notifier": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/node-notifier": "^0.0.28",
+    "@types/tapable": "^1.0.4",
+    "@types/webpack": "^4.4.22",
+    "fork-ts-checker-webpack-plugin": "^1.0.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.1.4",
+    "tslint": "^5.12.0",
+    "typescript": "^3.0.3",
+    "webpack": "^5.0.0-alpha.1"
+  },
+  "peerDependencies": {
+    "fork-ts-checker-webpack-plugin": "^1.0.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "homepage": "https://github.com/OraCartwright/iureet.git"
+}
